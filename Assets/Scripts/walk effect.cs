@@ -26,6 +26,7 @@ public class walkeffect : MonoBehaviour
         if (collision.gameObject.CompareTag("ground"))
         {
             Instantiate(poof, transform.position, Quaternion.identity);
+            Debug.Log("poof");
         }
     }
 }
