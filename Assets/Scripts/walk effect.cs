@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class walkeffect : MonoBehaviour
 {
+    [SerializeField] private bool isThiscool = true;
+   
     public GameObject poof; //not very slay
     
     
