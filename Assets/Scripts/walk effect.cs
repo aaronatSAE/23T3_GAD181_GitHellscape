@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class walkeffect : MonoBehaviour
 {
-    public GameObject poof;
-    
+    public GameObject poof; //not very slay
     
     
     // Start is called before the first frame update
@@ -26,7 +25,7 @@ public class walkeffect : MonoBehaviour
         if (collision.gameObject.CompareTag("ground"))
         {
             Instantiate(poof, transform.position, Quaternion.identity);
-            Debug.Log("poof");
+            Debug.Log("Poof.");
         }
     }
 }
