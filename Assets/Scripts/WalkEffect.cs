@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class walkeffect : MonoBehaviour
+public class WalkEffect : MonoBehaviour
 {
     [SerializeField] private bool isThiscool = true;
    
