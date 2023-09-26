@@ -10,7 +10,6 @@ public class walkeffect : MonoBehaviour
     public GameObject poof; //not very slay
     
     
-    
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +27,7 @@ public class walkeffect : MonoBehaviour
         if (collision.gameObject.CompareTag("ground"))
         {
             Instantiate(poof, transform.position, Quaternion.identity);
+            Debug.Log("Poof.");
         }
     }
 }
