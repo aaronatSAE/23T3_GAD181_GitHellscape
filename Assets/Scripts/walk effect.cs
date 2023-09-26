@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class walkeffect : MonoBehaviour
 {
-    public GameObject poof;
+    public GameObject poof; //not very slay
     
     
     // Start is called before the first frame update
