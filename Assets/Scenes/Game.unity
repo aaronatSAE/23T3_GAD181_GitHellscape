@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 1270817879}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -470,8 +470,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2233857608085304145, guid: a74c8ecfa3c64ce4fb121dfb5a41f32f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2601023760760376562}
   m_SourcePrefab: {fileID: 100100000, guid: a74c8ecfa3c64ce4fb121dfb5a41f32f, type: 3}
+--- !u!1 &2601023760760376561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2233857608085304145, guid: a74c8ecfa3c64ce4fb121dfb5a41f32f, type: 3}
+  m_PrefabInstance: {fileID: 2601023760760376560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2601023760760376562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2601023760760376561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b576b61d5ad274c96da4a4bb64af47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poof: {fileID: 6659636905472059812, guid: 1b7462bcea851224098c03a28054cbe1, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
